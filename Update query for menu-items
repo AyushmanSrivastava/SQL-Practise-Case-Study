@@ -1,0 +1,1 @@
+update menu_items set price =150 where item_id='b01';
