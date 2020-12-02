@@ -1,0 +1,1 @@
+select userid,sum(price) from cart group by userid order by userid;
