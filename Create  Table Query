@@ -1,0 +1,11 @@
+create table menu_items
+(
+item_id varchar(30) not null,
+name varchar(30) not null,
+price int(20) not null,
+active varchar(8) default 'no',
+date_of_launch date not null,
+category varchar(30) not null,
+free_delivery varchar(8) default 'no',
+constraint ab primary key(item_id)
+);
