@@ -1,0 +1,7 @@
+create table login_details
+(
+login_id varchar(20) not null,
+login_password varchar(20) not null,
+login_type varchar(10) default  'customer',
+constraint asd primary key(login_id)
+);
